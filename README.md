@@ -22,5 +22,5 @@
 <img width="355" alt="4  단어추가" src="https://user-images.githubusercontent.com/63464299/188265121-32d46c1e-7493-4bad-9da6-d394352bc234.png">
 
 ## 0. 나가기
-<img width="316" alt="0  나가기" src="https://github.com/KimGyeongLock/JavaCRUD/blob/master/screenshot/%5B0.%20나가기%5D.png?raw=true">
+<img width="316" alt="0  나가기" src="./screenshot/[0.나가기].png">
 
