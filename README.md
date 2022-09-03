@@ -19,7 +19,7 @@
 <img width="316" alt="1  모든 단어보기" src="https://user-images.githubusercontent.com/63464299/188265115-bd4cba53-763b-415d-ac94-15cb42edd1c7.png">
 
 ## 4. 단어 추가
-<img width="355" alt="4  단어추가" src="https://user-images.githubusercontent.com/63464299/188265121-32d46c1e-7493-4bad-9da6-d394352bc234.png">
+<img src="https://github.com/KimGyeongLock/JavaCRUD/blob/0f2a578c29d633cbe4af097882b0a2cc2bff8706/screenshot/%5B1.%20%E1%84%86%E1%85%A9%E1%84%83%E1%85%B3%E1%86%AB%20%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8B%E1%85%A5%E1%84%87%E1%85%A9%E1%84%80%E1%85%B5%5D.png">
 
 ## 0. 나가기
 <img src="https://github.com/KimGyeongLock/JavaCRUD/blob/3907c7e797229365b063224f9c2e17da5e853788/screenshot/%5B0.%20%E1%84%82%E1%85%A1%E1%84%80%E1%85%A1%E1%84%80%E1%85%B5%5D.png"/>
