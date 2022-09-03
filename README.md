@@ -16,10 +16,11 @@
 => 원하는 메뉴는?
 
 ## 1. 모든 단어 보기
-<img width="316" alt="1  모든 단어보기" src="https://user-images.githubusercontent.com/63464299/188262865-24668e85-8fd8-418f-94fe-5ab86d823e09.png">
+<img width="316" alt="1  모든 단어보기" src="https://user-images.githubusercontent.com/63464299/188265115-bd4cba53-763b-415d-ac94-15cb42edd1c7.png">
 
 ## 4. 단어 추가
-<img width="355" alt="4  단어추가" src="https://user-images.githubusercontent.com/63464299/188262871-eed47b57-5f97-46f0-ba19-bb068aadc5f7.png">
+<img width="355" alt="4  단어추가" src="https://user-images.githubusercontent.com/63464299/188265121-32d46c1e-7493-4bad-9da6-d394352bc234.png">
 
 ## 0. 나가기
-<img width="316" alt="0  나가기" src="https://user-images.githubusercontent.com/63464299/188262874-e4d057e3-aec5-457b-9c11-9ab49205dcd6.png">
+<img width="316" alt="0  나가기" src="https://user-images.githubusercontent.com/63464299/188265123-e0cfee1d-8dd0-47ab-915a-1ad30b65ef7f.png">
+
