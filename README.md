@@ -22,5 +22,5 @@
 <img width="355" alt="4  단어추가" src="https://user-images.githubusercontent.com/63464299/188265121-32d46c1e-7493-4bad-9da6-d394352bc234.png">
 
 ## 0. 나가기
-<img src="./screenshot/[4. 단어추가].png">
+<img src="https://github.com/KimGyeongLock/JavaCRUD/blob/3907c7e797229365b063224f9c2e17da5e853788/screenshot/%5B0.%20%E1%84%82%E1%85%A1%E1%84%80%E1%85%A1%E1%84%80%E1%85%B5%5D.png"/>
 
