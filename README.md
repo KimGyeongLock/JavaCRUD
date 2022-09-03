@@ -23,7 +23,7 @@ height="355"
 
 ## 4. 단어 추가
 <img src="https://github.com/KimGyeongLock/JavaCRUD/blob/0f2a578c29d633cbe4af097882b0a2cc2bff8706/screenshot/%5B1.%20%E1%84%86%E1%85%A9%E1%84%83%E1%85%B3%E1%86%AB%20%E1%84%83%E1%85%A1%E1%86%AB%E1%84%8B%E1%85%A5%E1%84%87%E1%85%A9%E1%84%80%E1%85%B5%5D.png"
-width="387"
+width="385"
 height="355"
 />
 
