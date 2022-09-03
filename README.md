@@ -17,7 +17,7 @@
 
 ## 1. 모든 단어 보기
 <img src="https://github.com/KimGyeongLock/JavaCRUD/blob/7363ce0f15b0f85de5fbc102bf4418507326db31/screenshot/%5B0.%20%E1%84%82%E1%85%A1%E1%84%80%E1%85%A1%E1%84%80%E1%85%B5%5D.png"
-width="450"
+width="430"
 height="355"
 />
 
