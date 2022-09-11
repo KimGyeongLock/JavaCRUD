@@ -7,5 +7,5 @@
 2|executive|경영 간부, 임원
 1|assure|안심시키다, 확신시키다
 2|embarrassment|당황, 난처함
-2|publicity|명성, 평판, 널리 알려짐, 공
-1| apple|apple
+2|publicity|명성, 평판, 널리 알려짐, 공표 
+1| apple|사과 
