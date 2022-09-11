@@ -104,7 +104,6 @@ public class WordCRUD implements ICRUD{
 		
 		System.out.print("=> 뜻 입력 : ");
 		String meaning = s.nextLine();
-		System.out.println("id"+idlist.get(id-1));
 		Word word = list.get(idlist.get(id-1)); // idlist에서 먼저 id를 찾고 그 id를 list에서 다시 찾는방법 
 		word.setMeaning(meaning); //새로 작성한 뜻을 setter함수를 이용해서 넣어주기 
 		System.out.println("단어가 수정되었습니다. ");
