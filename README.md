@@ -49,8 +49,7 @@ height="355"
 width="385"
 height="355"
 /><br/>
-<img src="https://github.com/KimGyeongLock/JavaCRUD/blob/e40476b572a39bb6f786d7c0bbb7f26b2a56873c/screenshot/%5B5.%20%EB%8B%A8%EC%96%B4%EC%88%98%EC%A0%952%5D.png
-"
+<img src="https://github.com/KimGyeongLock/JavaCRUD/blob/e40476b572a39bb6f786d7c0bbb7f26b2a56873c/screenshot/%5B5.%20%EB%8B%A8%EC%96%B4%EC%88%98%EC%A0%952%5D.png"
 width="385"
 height="355"
 />
