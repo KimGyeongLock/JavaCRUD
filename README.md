@@ -59,7 +59,7 @@ height="355"
 />
 
 ## 8. 퀴즈
-<img src="hhttps://github.com/KimGyeongLock/JavaCRUD/blob/4ecd95eb588205a80daffcc09e1c8d721bfe6190/screenshot/%5B8.%20%ED%80%B4%EC%A6%88%5D.png"
+<img src="https://github.com/KimGyeongLock/JavaCRUD/blob/4ecd95eb588205a80daffcc09e1c8d721bfe6190/screenshot/%5B8.%20%ED%80%B4%EC%A6%88%5D.png"
 width="385"
 height="355"
 />
