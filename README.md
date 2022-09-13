@@ -26,6 +26,10 @@ height="355"
 <img src="https://github.com/KimGyeongLock/JavaCRUD/blob/4ecd95eb588205a80daffcc09e1c8d721bfe6190/screenshot/%5B2.%20%EC%88%98%EC%A4%80%EB%B3%84%EB%8B%A8%EC%96%B4%EB%B3%B4%EA%B8%B0%5D.png"
 width="385"
 height="355"
+/><br/>
+<img src="https://github.com/KimGyeongLock/JavaCRUD/blob/e40476b572a39bb6f786d7c0bbb7f26b2a56873c/screenshot/%5B2.%20%EC%88%98%EC%A4%80%EB%B3%84%EB%8B%A8%EC%96%B4%EB%B3%B4%EA%B8%B02%5D.png"
+width="385"
+height="355"
 />
 
 ## 3. 단어 검색
@@ -42,6 +46,11 @@ height="355"
 
 ## 5. 단어 수정
 <img src="https://github.com/KimGyeongLock/JavaCRUD/blob/4ecd95eb588205a80daffcc09e1c8d721bfe6190/screenshot/%5B5.%20%EB%8B%A8%EC%96%B4%EC%88%98%EC%A0%95%5D.png"
+width="385"
+height="355"
+/><br/>
+<img src="https://github.com/KimGyeongLock/JavaCRUD/blob/e40476b572a39bb6f786d7c0bbb7f26b2a56873c/screenshot/%5B5.%20%EB%8B%A8%EC%96%B4%EC%88%98%EC%A0%952%5D.png
+"
 width="385"
 height="355"
 />
