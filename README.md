@@ -56,6 +56,10 @@ height="355"
 <img src="https://github.com/KimGyeongLock/JavaCRUD/blob/4ecd95eb588205a80daffcc09e1c8d721bfe6190/screenshot/%5B7.%20%ED%8C%8C%EC%9D%BC%EC%A0%80%EC%9E%A5%5D.png"
 width="385"
 height="355"
+/><br/>
+<img src="https://github.com/KimGyeongLock/JavaCRUD/blob/0cf7894e05803bfb5be7f2895d076181e908c929/screenshot/Dictionary.png"
+width="385"
+height="355"
 />
 
 ## 8. 퀴즈
