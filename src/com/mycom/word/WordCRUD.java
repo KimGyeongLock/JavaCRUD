@@ -109,6 +109,8 @@ public class WordCRUD implements ICRUD{
 		}
 		System.out.println("-----------------------------\n");
 	}
+	
+	
 
 	public void updateItem() {
 		System.out.print("=> 수정할 단어 검색 : ");
@@ -214,7 +216,7 @@ public class WordCRUD implements ICRUD{
 	}
 
 	public void searchLevel() {
-		System.out.print("=> 원하는 레벨은> (1~3) ");
+		System.out.print("=> 원하는 레벨은? (1~3) ");
 		int level = s.nextInt();
 		listAll(level);
 	}
@@ -223,5 +225,36 @@ public class WordCRUD implements ICRUD{
 		System.out.print("=> 원하는 단어는? ");
 		String keyword = s.next(); 
 		listAll(keyword);
+	}
+
+	public void quiz() {
+		System.out.println("\n-----------------------------");
+		System.out.println("  ☆단어 복습 퀴즈☆");
+		System.out.print("=> 원하는 레벨은? (1~3) ");
+		int level = s.nextInt();
+		ArrayList<Integer> idlist = listLevel(level);
+		
+		while(true) {
+			int random = (int) (Math.random() * (idlist.size()-1));
+			Word word = list.get(idlist.get(random));
+			System.out.println(word.getMeaning());
+			String answer = s.next();
+			if(answer.equals(word.getWord())) System.out.println("정답입니다!");
+			else System.out.println("오답입니다!");
+			System.out.print("그만하기 (Y/n)");
+			String exit = s.next();
+			if(exit.equalsIgnoreCase("y")) break;
+		}
+	}
+	
+	public ArrayList<Integer> listLevel(int level) { //overloading
+		ArrayList<Integer> idlist = new ArrayList<>(); 
+		int j = 0;
+		for(int i = 0; i < list.size(); i++) {
+			int ilevel = list.get(i).getLevel();
+			if(ilevel != level) continue; //level 비교 
+			idlist.add(i); 
+		}
+		return idlist;
 	}
 }

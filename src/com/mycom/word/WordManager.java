@@ -20,6 +20,7 @@ public class WordManager {
 				+ "5. 단어 수정\n"
 				+ "6. 단어 삭제\n"
 				+ "7. 파일 저장\n"
+				+ "8. 퀴즈\n"
 				+ "0. 나가기\n"
 				+ "*******************\n"
 				+ "=> 원하는 메뉴는? ");
@@ -55,6 +56,9 @@ public class WordManager {
 			}
 			else if(menu == 7) {  // save data
 				wordCRUD.saveFile();
+			}
+			else if(menu == 8) {
+				wordCRUD.quiz();
 			}
 		}
 	}
