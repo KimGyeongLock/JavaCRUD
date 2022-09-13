@@ -77,6 +77,14 @@ public class WordCRUD implements ICRUD{
 			idlist.add(i); //새로만든 list에 keyword에 해당하는 단어의 index(int)를 추가 
 			j++;
 		}
+		if (j==0) {
+			System.out.println("일치하는 단어가 없습니다.");
+			System.out.print("새로 추가하시겠습니까? (Y/n) ");
+			String answer = s.next();
+			if(answer.equalsIgnoreCase("y")) {
+				addItem();
+			}
+		}
 		System.out.println("-----------------------------\n");
 		return idlist;
 	}
@@ -91,6 +99,14 @@ public class WordCRUD implements ICRUD{
 			System.out.println(list.get(i).toString());
 			j++;
 		}
+		if (j==0) {
+			System.out.println("일치하는 단어가 없습니다.");
+			System.out.print("새로 추가하시겠습니까? (Y/n) ");
+			String answer = s.next();
+			if(answer.equalsIgnoreCase("y")) {
+				addItem();
+			}
+		}
 		System.out.println("-----------------------------\n");
 	}
 
@@ -98,35 +114,61 @@ public class WordCRUD implements ICRUD{
 		System.out.print("=> 수정할 단어 검색 : ");
 		String keyword = s.next();
 		ArrayList<Integer> idlist = this.listAll(keyword);  //keyword에 해당하는 단어list 반환 
-		System.out.print("=> 수정할 번호 선택 : ");
-		int id = s.nextInt();
-		s.nextLine();//id뒤에있는 enter를 없애기 위해, enter는 여기로 들어감 
 		
-		System.out.print("=> 뜻 입력 : ");
-		String meaning = s.nextLine();
-		Word word = list.get(idlist.get(id-1)); // idlist에서 먼저 id를 찾고 그 id를 list에서 다시 찾는방법 
-		word.setMeaning(meaning); //새로 작성한 뜻을 setter함수를 이용해서 넣어주기 
-		System.out.println("단어가 수정되었습니다. ");
+		int id = 1;
+		String answer = "";
+		if(idlist.size()!=0) {
+			while(true) {
+				System.out.print("=> 수정할 번호 선택 : ");
+				id = s.nextInt();
+				s.nextLine();//id뒤에있는 enter를 없애기 위해, enter는 여기로 들어감 
+				if(id<=0 || id > idlist.size()) {
+					System.out.print("잘못된 번호 입니다. 다시 입력하시겠습니까? (Y/n) ");
+					answer = s.next();
+					if(answer.equalsIgnoreCase("n")) break;
+				}else break;
+			} 
+			if(!answer.equalsIgnoreCase("n")) {
+				System.out.print("=> 뜻 입력 : ");
+				String meaning = s.nextLine();
+				Word word = list.get(idlist.get(id-1)); // idlist에서 먼저 id를 찾고 그 id를 list에서 다시 찾는방법 
+				word.setMeaning(meaning); //새로 작성한 뜻을 setter함수를 이용해서 넣어주기 
+				System.out.println("단어가 수정되었습니다. ");
+			}
+		}
 	}
 
 	public void deleteItem() {
 		System.out.print("=> 삭제할 단어 검색 : ");
 		String keyword = s.next();
 		ArrayList<Integer> idlist = this.listAll(keyword);
-		System.out.print("=> 삭제할 번호 선택 : ");
-		int id = s.nextInt();
-		s.nextLine();//id뒤에있는 enter를 없애기 위해, enter는 여기로 들어감 
 		
-		System.out.print("=> 정말로 삭제하실래요?(Y/n) ");
-		String answer = s.next();
-		if(answer.equalsIgnoreCase("y")) {//대문자 소문자 상관x
-			list.remove((int) idlist.get(id-1)); 
-			//Unlikely argument type Integer for remove(Object) on a Collection<Word>
-			//idlist.get(id-1) Integer라는 객체로 되어있어서 삭제가 안됨 -> 정수형 casting 
-			//Integer객체와 int는 다른가 ?
-			System.out.println("단어가 삭제되었습니다. ");
-		} else {
-			System.out.println("취소되었습니다. ");
+		int id = 1;
+		String answer = "";
+		if(idlist.size()!=0) { 
+			while(true) {
+				System.out.print("=> 삭제할 번호 선택 : ");
+				id = s.nextInt();
+				s.nextLine();//id뒤에있는 enter를 없애기 위해, enter는 여기로 들어감 
+				if(id<=0 || id > idlist.size()) {
+					System.out.print("잘못된 번호 입니다. 다시 입력하시겠습니까? (Y/n) ");
+					answer = s.next();
+					if(answer.equalsIgnoreCase("n")) break;
+				}else break;
+			} 
+			if(!answer.equalsIgnoreCase("n")) {
+				System.out.print("=> 정말로 삭제하실래요?(Y/n) ");
+				answer = s.next();
+				if(answer.equalsIgnoreCase("y")) {//대문자 소문자 상관x
+					list.remove((int) idlist.get(id-1)); 
+					//Unlikely argument type Integer for remove(Object) on a Collection<Word>
+					//idlist.get(id-1) Integer라는 객체로 되어있어서 삭제가 안됨 -> 정수형 casting 
+					//Integer객체와 int는 다른가 ?
+					System.out.println("단어가 삭제되었습니다. ");
+				} else {
+					System.out.println("취소되었습니다. ");
+				}
+			}
 		}
 	}
 	
